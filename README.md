@@ -1,4 +1,4 @@
-<p align="middle" ><img src="https://github.com/Mark910413/hc-react-image-view/blob/master/exmple.jpg"/></p>
+<p align="middle" ><img src="https://static.med.gzhc365.com/fss/publicfile/b1ff93bc3691e30ffe6228fefc999a2fc956809e881095f9b370741b498138d4.jpg"/></p>
 <h2 align="middle">Hc React Image-view</h2>
 
 ## Installation
