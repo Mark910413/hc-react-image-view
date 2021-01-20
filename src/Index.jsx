@@ -32,6 +32,8 @@ class ImageView extends Component {
       show: true,
       data,
       curIndex,
+      scaleImg: 100,
+      rotateImg: 0,
     }, () => {
       this.init();
     });
@@ -50,7 +52,6 @@ class ImageView extends Component {
     this.drage(this.ImgWrapDom, this.ImgDom);
 
     this.imgWidth = this.ImgDom.clientWidth;
-    this.scaleImg = 100;
   }
   /**
    * @description: 拖拽窗口
@@ -341,6 +342,10 @@ class ImageView extends Component {
     this.ImgWrapDom = null;
     this.ImgToolDom = null;
     this.ImgViewDom = null;
+    this.setState({
+      scaleImg: 100,
+      rotateImg: 0,
+    });
   }
   scrollImg = (e) => {
     // eslint-disable-next-line react/no-find-dom-node

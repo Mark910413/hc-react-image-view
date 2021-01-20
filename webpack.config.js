@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-12-23 15:47:02
+ * @LastEditTime: 2021-01-15 09:23:05
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \hc-react-image-view\webpack.config.js
+ */
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
